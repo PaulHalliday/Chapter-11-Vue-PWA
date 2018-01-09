@@ -7,6 +7,7 @@ branches:
     - master
 
 script:
+  - npm run build
   - npm run test
 
 notifications:
@@ -15,4 +16,3 @@ notifications:
       - hello@paulhalliday.io
     on_success: always 
     on_failure: always
-    
